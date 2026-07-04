@@ -1,0 +1,25 @@
+.filter-bar{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1.25rem;
+}
+
+.filter-bar button{
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1.5px solid #1a1a2e;
+    border-radius: 999px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.filter-bar button:hover{
+    background: #f0edff;
+}
+
+.filter-bar button.active{
+    background: #1a1a2e;
+    color: white;
+}

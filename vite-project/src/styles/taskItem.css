@@ -1,0 +1,61 @@
+.task-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: white;
+    border: 2.5px solid #1a1a2e;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    transition: transform 0.15s;
+}
+
+.task-item:hover{
+    transform: translateX(4px);
+}
+
+.toggle-btn{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2.5px solid #1a1a2e;
+    background: white;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.toggle-btn.completed{
+    background: #00c48c;
+    border-color: #00c48c;
+}
+
+.task-text{
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+    transition: all 0.2s;
+}
+
+.task-text.completed{
+    text-decoration: line-through;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.delete-btn{
+    background: #ff4d6d;
+    border: 2.5px solid #1a1a2e;
+    border-radius: 8px;
+    padding: 5px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: background 0.2s;
+}
+
+.delete-btn:hover{
+    background: #e03055;
+}
