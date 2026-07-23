@@ -61,6 +61,6 @@ src/
 
 ## Screenshots
 
-![All] (screenshots/task-manager-1)
-![Active] (screenshots/task-manager-2)
-![Completed] (screenshots/task-manager-3)
+![All](screenshots/task-manager-1.png)
+![Active](screenshots/task-manager-2.png)
+![Completed](screenshots/task-manager-3.png)
